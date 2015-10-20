@@ -1,0 +1,58 @@
+@containerW: 1200px;
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  width: @containerW;
+  background: indianred;
+  margin: auto;
+}
+
+.logo{
+  height: 100%;
+  width: 40%;
+  background: goldenrod;
+  float: left;
+  overflow: hidden;
+}
+
+.right-header{
+  text-transform: uppercase;
+  .up-login{
+    text-align: right;
+    .up-login-line{
+      width: 400px;
+      height: 10px;
+      display: inline-block;
+      border-top: 1px dotted #000000;
+    }
+    nav{
+      display: inline-block;
+      ul{
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+    }
+    nav ul li{
+      display: inline-block;
+    }
+  }
+  width: 60%;
+  background: grey;
+  float: left;
+}
+
+.up-menu{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  nav ul li{
+    display: inline-block;
+  }
+}
+
+section{
+  clear: both;
+}
